@@ -11,7 +11,7 @@
 }
 
 section {
-  height: 300px;
+  
   border: 1px dashed red;
 }
 .space {
@@ -29,7 +29,7 @@ header {
 /* ! JUMBOTRON 1  */
 
 .jumbotron1 {
-  min-height: 600px;
+  height: 600px;
   background-image: url('img/jumbo-bg.png');
   background-size: cover;
   background-position: center;
@@ -45,4 +45,11 @@ header {
   color: white;
   text-decoration: none;
   background-color: #C63511;
+}
+
+/* ! HIGHLIGHTED PLAY  */
+
+.highlighted-play img {
+  max-width: 100%;
+  border-radius: 15px;
 }
