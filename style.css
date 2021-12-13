@@ -17,10 +17,23 @@ section {
 .space {
   height: 102px;
 }
+
+* span {
+  color: gray;
+}
+
+a {
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 /* ! HEADER  */
 
 header {
   position: fixed;
+  z-index: 2;
   left: 0;
   right: 0;
 }
@@ -40,10 +53,6 @@ header {
   bottom: 50px;
 }
 .buy-now a {
-  padding: 10px 15px;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
   background-color: #C63511;
 }
 
