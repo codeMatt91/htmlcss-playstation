@@ -1,7 +1,21 @@
+/* ! GENERAL RULES */
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+/* ! HEADER  */
+
 header {
-  height: 100px;
   border: 1px dashed red;
 }
+
 section {
   height: 300px;
   border: 1px dashed red;
