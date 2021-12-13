@@ -2,7 +2,7 @@
 
 .clearfix::after {
   display: table;
-  content: '';
+  content: "";
   clear: both;
 }
 
@@ -11,7 +11,6 @@
 }
 
 section {
-  
   border: 1px dashed red;
 }
 .space {
@@ -38,22 +37,25 @@ header {
   right: 0;
 }
 
-
 /* ! JUMBOTRON 1  */
 
-.jumbotron1 {
+.jumbotron1,
+.jumbotron2 {
   height: 600px;
-  background-image: url('img/jumbo-bg.png');
+  background-image: url("img/jumbo-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.jumbotron2 {
+  background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
 }
 .buy-now {
   position: absolute;
   bottom: 50px;
 }
 .buy-now a {
-  background-color: #C63511;
+  background-color: #c63511;
 }
 
 /* ! HIGHLIGHTED PLAY  */
