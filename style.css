@@ -10,32 +10,39 @@
   width: 50px;
 }
 
-/* ! HEADER  */
-
-header {
-  border: 1px dashed red;
-}
-.button-round {
-  height: 100%;
-  line-height: 100%;
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(63, 62, 62);
-
-}
-
-
-
-
-
-
-
-
-
-
-
 section {
   height: 300px;
   border: 1px dashed red;
+}
+.space {
+  height: 102px;
+}
+/* ! HEADER  */
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+
+/* ! JUMBOTRON 1  */
+
+.jumbotron1 {
+  min-height: 600px;
+  background-image: url('img/jumbo-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.buy-now {
+  position: absolute;
+  bottom: 50px;
+}
+.buy-now a {
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #C63511;
 }
