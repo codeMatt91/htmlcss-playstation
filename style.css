@@ -93,9 +93,18 @@ header {
 /* ! FOOTER  */
 
 footer {
+  font-size: 15px;
   background-color: rgb(24,66,150);
 }
-
+footer .globe {
+  width: 20px;
+}
+footer .sony-logo {
+  width: 100px;
+}
+.copyright {
+  font-size: 12px;
+}
 
 @media screen and (min-width: 768px) {
   .ps-plus {
