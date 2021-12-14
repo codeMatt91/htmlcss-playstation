@@ -90,7 +90,11 @@ header {
   font-size: 35px;
 }
 
+/* ! FOOTER  */
 
+footer {
+  background-color: rgb(24,66,150);
+}
 
 
 @media screen and (min-width: 768px) {
