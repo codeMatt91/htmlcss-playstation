@@ -68,7 +68,7 @@ header {
 }
 .jumbotron-responsive2 img,
 .jumbotron-responsive1 img {
-  width: 50%;
+  width: 60%;
 }
 .jumbotron-responsive2 button,
 .jumbotron-responsive1 button {
@@ -112,11 +112,3 @@ footer .sony-logo {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .ps-plus {
-    width: 50%;
-  }
-  .ps-plus-img {
-    width: 50%;
-  }
-}
