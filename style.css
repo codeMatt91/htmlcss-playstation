@@ -64,3 +64,21 @@ header {
   max-width: 100%;
   border-radius: 15px;
 }
+
+/* ! JUMBOTRON RESPONSIVE 1  */
+
+.jumbotron-responsive1 {
+  background-color: rgb(197, 194, 194);
+}
+.jumbotron-responsive1 .row p{
+  font-size: 14px;
+}
+.jumbotron-responsive1 .row img {
+  width: 60%;
+}
+.jumbotron-responsive1 .row button {
+  background-color: rgb(214, 213, 213);
+  border-radius: 20px;
+  border-width: 0;
+  padding: 5px 0;
+}
