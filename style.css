@@ -14,6 +14,9 @@
 * span {
   color: gray;
 }
+.bg-red {
+  background-color: red;
+}
 /* ! JUMBOTRON 1  */
 
 .jumbotron1,
@@ -35,6 +38,11 @@
 .highlighted-play img {
   max-width: 100%;
   border-radius: 15px;
+  transition: transform 1s;
+}
+
+.highlighted-play img:hover {
+  transform: translate(0,-15px);
 }
 
 /* ! JUMBOTRON RESPONSIVE 1  */
@@ -80,3 +88,10 @@ footer a {
   text-decoration: none;
 }
 
+
+/* ! BONUS  */
+
+/* a:hover {
+  box-sizing: border-box;
+  border: 6px double white;
+} */
