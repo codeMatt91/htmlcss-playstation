@@ -30,7 +30,7 @@ button {
 
 .jumbotron1,
 .jumbotron2 {
-  height: 600px;
+  
   background-image: url("img/jumbo-bg.png");
   background-size: cover;
   background-position: center;
@@ -40,12 +40,9 @@ button {
   background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
 }
 .buy-now {
-  position: absolute;
-  bottom: 50px;
+  padding-top: 250px;
 }
-.buy-now a {
-  background-color: #c63511;
-}
+
 
 /* ! HIGHLIGHTED PLAY  */
 
@@ -93,9 +90,4 @@ footer .sony-logo {
   font-size: 12px;
 }
 
-@media screen and (min-width: 992px) {
-  .buy-now {
-    width: 30%;
-  }
-}
 
