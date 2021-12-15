@@ -96,7 +96,7 @@ footer a {
   bottom: 0;
   content: '';
   width: 100%;
-  height: 5px;
+  height: 2px;
   background-color: cornflowerblue;
 }
 .effect [class^="col"]:hover::after {
@@ -107,5 +107,12 @@ footer a {
   opacity: 0.5;
 }
 .effect [class^="col"]:hover {
+  opacity: 1;
+}
+
+.nav-item a {
+  opacity: 0.5;
+}
+.nav-item a:hover {
   opacity: 1;
 }
