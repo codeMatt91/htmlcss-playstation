@@ -116,3 +116,7 @@ footer a {
 .nav-item a:hover {
   opacity: 1;
 }
+
+.jumbotron1 a:hover{
+  box-shadow: inset 0px 0px 10px black;
+}
