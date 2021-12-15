@@ -14,23 +14,10 @@
 * span {
   color: gray;
 }
-a {
-  padding: 10px 15px;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
-}
-button {
-  background-color: rgb(214, 213, 213);
-  border-radius: 20px;
-  border-width: 0;
-  padding: 5px 0;
-}
 /* ! JUMBOTRON 1  */
 
 .jumbotron1,
 .jumbotron2 {
-  
   background-image: url("img/jumbo-bg.png");
   background-size: cover;
   background-position: center;
@@ -42,7 +29,6 @@ button {
 .buy-now {
   padding-top: 250px;
 }
-
 
 /* ! HIGHLIGHTED PLAY  */
 
@@ -89,5 +75,8 @@ footer .sony-logo {
 .copyright {
   font-size: 12px;
 }
-
+footer a {
+  color: white;
+  text-decoration: none;
+}
 
