@@ -19,14 +19,16 @@
 }
 /* ! JUMBOTRON 1  */
 
-.jumbotron1,
-.jumbotron2 {
-  background-image: url("img/jumbo-bg.png");
+
+[class^="jumbotron"] {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.jumbotron2 {
+.jumbotron-main {
+  background-image: url("img/jumbo-bg.png");
+}
+.jumbotron-content {
   background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
 }
 .buy-now {
